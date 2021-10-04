@@ -1,0 +1,89 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body a , ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.container {
+    background-image: url("../img/groupe.png");
+    background-repeat: no-repeat;
+    height: 800px;
+    
+}
+
+.logo {
+    object-fit: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(211, 70, 70);
+    border-top: 2px black solid;
+    height: 100px;
+}
+
+.ulheader {
+    display: flex;
+    margin-left: 20px;
+}
+
+.nav-li {
+    margin: 40px;
+}
+
+.nav-li :hover{
+    border-bottom: 5px black solid;
+    padding-bottom: 5px;
+}
+
+.nav-li a {
+    color: blanchedalmond;
+    
+}
+
+main {
+    text-align: center;
+    margin-top: 80px;
+    color: blanchedalmond;
+}
+
+p {
+    width: 400px;
+    margin: 300px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 { 
+   font-size: 4rem;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(211, 70, 70);
+    border-bottom: 2px black solid;
+    height: 100px;
+}
+
+.ulfooter {
+    font-size: 3rem;
+    
+}
+.ulfooter :hover{
+    transition: 400ms;
+    transform: scale(1.15);
+}
+
+.footer-li a{
+    color: blanchedalmond;
+}
+
+
