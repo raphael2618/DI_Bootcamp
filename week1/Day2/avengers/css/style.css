@@ -1,0 +1,105 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (min-width: 320px) and (max-width: 720px) {
+    ::before, ::after {
+        box-sizing: border-box;
+        margin: 20px;
+        padding: 20px;
+    }
+    footer ul {
+        display: flex;
+        border-bottom: 2px black solid;
+    }
+}
+body a , ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.container {
+    background-image: url("../img/groupe.png");
+    background-repeat: no-repeat;
+    height: 800px;
+    
+}
+
+.logo {
+    object-fit: cover;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    position: center;
+    justify-content: space-evenly;
+    background-color: blue;
+    border-top: 2px blue solid;
+    height: 100px;
+}
+
+
+
+.ulheader {
+    display: flex;
+    margin-left: 20px;
+}
+
+.nav-li {
+    margin: 40px;
+}
+
+.nav-li :hover{
+    border-bottom: 5px black solid;
+    padding-bottom: 5px;
+}
+
+.nav-li a {
+    color: blanchedalmond;
+    
+}
+
+main {
+    text-align: center;
+    margin-top: 80px;
+    color: blanchedalmond;
+}
+
+p {
+    width: 400px;
+    margin: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: unset;
+}
+
+h1 { 
+   font-size: 4rem;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    border-bottom: 2px blue solid;
+    height: 100px;
+}
+
+.ulfooter {
+    font-size: 3rem;
+    
+}
+.ulfooter :hover{
+    transition: 400ms;
+    transform: scale(1.15);
+}
+
+.footer-li a{
+    color: blanchedalmond;
+}
+
+
