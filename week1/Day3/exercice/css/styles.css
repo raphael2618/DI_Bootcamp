@@ -1,0 +1,32 @@
+.sec {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /*background-color: red;*/
+    height: 500px;
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 20px 20px;
+    background-color: black;
+}
+div {
+    height: 100px
+}
+
+.blue {
+    background-color: blue;
+    border: black 2px solid;
+    grid-column: span 2;
+}
+
+.yellow {
+    background-color: yellow;
+    border: black 2px solid;
+    grid-column: span 3;
+}
+
+.red {
+    /*color: red;*/
+    background-color: red;
+    border: black 2px solid;
+
+}
+
