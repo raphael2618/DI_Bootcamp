@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 1</title>
+</head>
+<body>
+<script>
+
+    let str = "I love movie of nemo";
+    let hasTest = str.includes("nemo");
+
+
+    if(hasTest == true){
+        //do a thing
+        let indexOfFirst = str.split(' ').indexOf('nemo');
+        console.log(`I found nemo at ${indexOfFirst}!`) ;
+    }
+    else {
+        console.log("nemo not find" )
+    }
+
+
+</script>
+
+</body>
+</html>
