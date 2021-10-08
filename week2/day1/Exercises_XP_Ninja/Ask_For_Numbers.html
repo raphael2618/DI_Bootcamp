@@ -6,22 +6,12 @@
 </head>
 <body>
 <script>
-    /*let num1 = prompt("Enter one number please");
-    let num2 = prompt("Enter another number please");
-
-    if (typeof(num1)!="number" || typeof(num2)!="number") {
-        console.log("not a string. Please enter an other number." )
-
-    } else {
-        parseInt(num1);
-        parseInt(num2);
-        res = num1 + num2;
-        alert(num1 + " + " + num2 + " = " + res)
-    }*/
-
-    let str = "3,4,7";
-    let nums = JSON.parse("[" + str + "]");
-    console.log(nums);
+    let nums = prompt("enter 2 numbers separated by a comma");
+    let numArr = nums.split(',');
+    let minNum = parseInt(numArr[0]);
+    let minNum1 = parseInt(numArr[1]);
+    let sum = minNum + minNum1
+    alert(sum)
 </script>
 
 </body>
