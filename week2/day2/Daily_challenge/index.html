@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily challenge</title>
+</head>
+<body>
+<script>
+    let sentence = 'The movie is bad that not, I like it'
+    let wordNotPosition = sentence.indexOf("not")
+    let wordBadPosition = sentence.indexOf("bad")
+    if(wordBadPosition>wordNotPosition) {
+        let replaceBad=sentence.replace("not that bad","good")
+        console.log(replaceBad)
+    }
+        if(wordBadPosition<wordNotPosition || wordNotPosition==-1 || wordBadPosition==-1) {
+            alert(sentence)
+    }
+</script>
+
+</body>
+</html>
