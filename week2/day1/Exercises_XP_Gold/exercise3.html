@@ -21,13 +21,29 @@
     let resultA = alert("the sum of " + num1 + " and " + num2 + " is " + sum)
 
     //Make a program that can subtract, multiply, and also divide!
+    //calculator
 
-    let substract = num1 - num2
-    let resultS = alert("the substration of " + num1 + " and " + num2 + " is " + substract)
-    let multiply = num1 * num2
-    let resultM = alert("the multiplication of " + num1 + " and " + num2 + " is " + multiply)
-    let divide = num1 / num2
-    let resultD = alert("the divide of " + num1 + " and " + num2 + " is " + divide)
+    let num1,num2,result,oper;
+    num1=prompt("Type first number");
+    num2=prompt("Type second number");
+    oper=prompt("Type an operator");
+
+    if(oper=="+"){
+        result=Number(num1)+Number(num2);
+    }
+    else if(oper=="/"){
+        result=Number(num1)/Number(num2);
+    }
+    else if(oper=="*"){
+        result=Number(num1)*Number(num2);
+    }
+    else if(oper=="-"){
+        result=Number(num1)-Number(num2);
+    }
+
+    alert(result)
+
+
 
 </script>
 </body>
