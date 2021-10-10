@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Grade Assigner</title>
+</head>
+<body>
+<script>
+    // Ask the user for their grade.
+    let gradeUser= prompt("What are your grades ?")
+    // If the grade is bigger than 90, console.log “A”
+    if(gradeUser>90) {
+        console.log( "A")
+    }
+// If the grade is between 80 and 90 (included), console.log “B”
+    else if(gradeUser>80 && gradeUser<90) {
+        console.log( "B")
+    }
+    // If the grade is between 70(included) and 80 (included), console.log “C”
+    else if(gradeUser>=70 && gradeUser<=80) {
+        console.log( "C")
+    }
+// If the grade is lower than 70, console.log “D”
+    else if(gradeUser<60) {
+        console.log( "D")
+    }
+
+</script>
+
+</body>
+</html>
