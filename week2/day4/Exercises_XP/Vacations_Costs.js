@@ -2,7 +2,7 @@ function hotelCost() {
     // It should ask the user for the number of nights they would like to stay in the hotel.
     let nightUser = prompt("Which number of night would you like to stay ?")
     //If the user doesn’t answer or if the answer is not a number, ask again.
-    if(typeof nightUser!=="number"||nightUser==="") {
+    if(typeof nightUser!=="number"||nightUser=="") {
         nightUser = prompt("Which number of night would you like to stay ?")
     }
     //The hotel costs $140 per night. The function should return the total price of the hotel.
@@ -12,21 +12,21 @@ function hotelCost() {
 function planeRideCost() {
     let destinationUser = prompt("where would you like to travel ?")
     //     If the user doesn’t answer or if the answer is not a string, ask again.
-    if(typeof destinationUser!=String || destinationUser==="") {
+    if(typeof destinationUser!=="string" || destinationUser==="") {
         destinationUser = prompt("where would you like to travel ?")
     }
 
     // London”: 183$
-    if(destinationUser=="London") {
-        var TotalPlaneRideCost = "183$"
+    if(destinationUser==="London") {
+        var TotalPlaneRideCost = 183
     }
     // “Paris” : 220$
-    else if(destinationUser=="Paris") {
-        var TotalPlaneRideCost = "220$"
+    else if(destinationUser==="Paris") {
+        TotalPlaneRideCost = 220
     }
     //     All other destination : 300$
     else {
-        var TotalPlaneRideCost = "300$"
+        TotalPlaneRideCost = 300
     }
     return TotalPlaneRideCost
 }
@@ -49,11 +49,10 @@ function rentalCarCost() {
     return totalRentCarCosts
 
 }
-/*
+
 function totalVacationCost() {
     hotelCost()
     planeRideCost()
     rentalCarCost()
-}*/
+}
 
-hotelCost()

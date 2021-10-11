@@ -15,27 +15,18 @@ let prices = {
     "blueberry":10
 }
 
-//Create an array called shoppingList with the following items: “banana”, “orange”, and “apple”.
-let shoppingList =["banana","orange","apple"]
-// Create a function called myBill() that takes no parameters.
-function myBill() {
-    if(stock.orange>0 ||stock.banana>0||stock.apple>0) {
-        let  bananaPrice =1 * prices.banana
-        let  applePrice =1* prices.apple
-        let  orangePrice =1 * prices.orange
-        let totalCart = bananaPrice + applePrice + orangePrice
-        console.log("total cart :" + totalCart )
-    } else {
-        console.log("Item not in stock.")
-    }
-    for (let i in stock) {
-        if(stock[i]>0) {
-            let stockDecrease=0;
-            stockDecrease= stock[i]-1
+let shoppingList = ["banana","orange","apple","blueberry"];
+let price =0;
+const myBill = () =>{
+    for(let article of shoppingList){
+        if(article in stock && stock[article]>0){
+            price+= prices[article];
+            //Bonus
+            stock[article]--;
         }
     }
-
+    console.log("The total price is : " + price);
+    console.log(stock);
 }
+myBill();
 // console.log(stock.apple,stock.banana,stock.orange)
-myBill()
-
