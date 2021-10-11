@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Boom</title>
-</head>
-<body>
-<script>
+
     let num1 = parseInt(prompt("Enter one number please"));
     //If the number given is less than 2 : return “boom”
     if(num1<2) {
@@ -40,8 +33,3 @@
         capitalBoom = stringBoom.toUpperCase()
         alert(capitalBoom + " " + "!")
     }
-
-</script>
-
-</body>
-</html>

@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>JS Arrays & Methods</title>
-</head>
-<body>
-<script>
+
     let fruits = ["Banana", "Apples", "Oranges", "Blueberries"];
     //1.Remove Banana from the array.
     fruits.shift()
@@ -21,8 +14,3 @@
 
     //.Sort the array in reverse order. (Not alphabetical, but reverse the current Array i.e. [‘a’, ‘c’, ‘b’] becomes [‘b’, ‘c’, ‘a’])
     fruits.reverse()
-
-</script>
-
-</body>
-</html>

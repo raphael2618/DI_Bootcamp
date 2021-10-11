@@ -6,21 +6,21 @@
 </head>
 <body>
 <script>
-//    without nested function
-    for(let i=0;i<5;i++) {
-        let output="";
-        for(let j=0;j<5-i;j++) {
-            output+=" ";
-        }
-        for(let k=0;k<=i;k++) {
-            output += "* ";
-        }
-        console.log(output);
-}
+
     //with nested function
     for(let i=1; i<=5; i++){
         console.log("* ".repeat(i));
     }
+    //Without nested function
+    let n = 5;
+    let string = "";
+    for (let i = 1; i <= n; i++) {
+        for (let j = 0; j < i; j++) {
+            string += "* ";
+        }
+        string += "\n";
+    }
+    console.log(string);
 </script>
 
 </body>

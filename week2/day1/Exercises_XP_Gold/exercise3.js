@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<script>
+
     //Prompt the user for the first number.
     let num1 = parseInt(prompt("Enter a first number")) ;
     //Prompt the user for the second number.
@@ -42,9 +35,3 @@
     }
 
     alert(result)
-
-
-
-</script>
-</body>
-</html>

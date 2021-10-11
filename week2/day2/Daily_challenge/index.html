@@ -7,9 +7,10 @@
 <script>
     // Create a variable called sentence. The value of the variable should be a string that contains the words “not” and “bad”.
     // For example, “The movie is not that bad, I like it”.
-    let sentence = 'The movie is bad that not, I like it'
+    let sentence = 'The movie is not that bad, I like it'
     // Create a variable called wordNot where it’s value is the first appearance of the substring “not” (from the sentence variable).
     let wordNotPosition = sentence.indexOf("not")
+    console.log( wordNotPosition)
     // Create a variable called wordBad where it’s value is the first appearance of the substring “bad” (from the sentence variable).
     let wordBadPosition = sentence.indexOf("bad")
     // If the word “bad” comes after the word “not”, you should replace the whole “not…bad” substring with “good”, then console.log the result.

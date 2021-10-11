@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Exercise 2</title>
-</head>
-<body>
-<script>
+
     let c;
     let a = 34;
     let b = 21;
@@ -16,7 +9,3 @@
     console.log(3 + 4 + '5');
     //3.The outcome of this code will be : 75 because 3 and 4 are numbers so there will be add together
     //but 5 is a string so it will be concatenate with 7.
-</script>
-
-</body>
-</html>

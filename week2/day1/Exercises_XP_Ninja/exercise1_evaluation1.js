@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Evaluation 1</title>
-</head>
-<body>
-<script>
+
     //true because 5 grather than 1.
     console.log( 5 >= 1)
     //false because the type is the same : number but the value is not the same.
@@ -26,7 +19,3 @@
     console.log(true === false )
     //false because it's the same value
     console.log( true != true)
-</script>
-
-</body>
-</html>

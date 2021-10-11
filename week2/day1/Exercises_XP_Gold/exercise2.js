@@ -1,12 +1,4 @@
-<!--swap variables-->
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    </head>
-    <body>
-    <script>
+
     let a = "mix",b = "pod"
     let temp;
     temp = a;
@@ -17,6 +9,3 @@
     // concatenate in a new variable
     let c= a + " " + b
     console.log(c)
-    </script>
-    </body>
-    </html>
