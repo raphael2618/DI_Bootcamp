@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>List Of People</title>
-</head>
-<body>
-<script>
+
     let people = ["Greg", "Mary", "Devon", "James"]
     // Write code to remove “Greg” from the people array.
     people.splice(0,1)
@@ -34,7 +27,3 @@
     //Create a variable called last which value is the last element of the array.
     let last = people[people.length-1]
     console.log(last)
-</script>
-
-</body>
-</html>
