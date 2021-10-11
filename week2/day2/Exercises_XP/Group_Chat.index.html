@@ -22,7 +22,7 @@
     // If there are more than 2 users, console.log the first two names in the users array
     // and the number of additional users online.
     else if(users.length>2) {
-        let OtherUsers =users.length - 2
+        let OtherUsers = users.slice(2)
         console.log( users[0], users[1] + " and " +  OtherUsers + " more are online ")
     }
 </script>
