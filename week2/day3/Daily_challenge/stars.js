@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Stars</title>
-</head>
-<body>
-<script>
+
 
     //with nested function
     for(let i=1; i<=5; i++){
@@ -21,7 +14,3 @@
         string += "\n";
     }
     console.log(string);
-</script>
-
-</body>
-</html>

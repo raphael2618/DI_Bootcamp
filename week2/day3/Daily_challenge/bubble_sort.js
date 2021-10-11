@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Bubble sort</title>
-</head>
-<body>
-<script>
+
     function bubble_Sort(arr){
 
         for(let i = 0; i < arr.length; i++){
@@ -27,7 +20,3 @@
         // Print the sorted array
         console.log(arr);
     }
-</script>
-
-</body>
-</html>

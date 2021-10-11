@@ -6,10 +6,13 @@ for(let i=0;i<age.length;i++) {
 }
 console.log(sum)
 
-for(let i=0;i<age.length;i++) {
-    for (let j=0;j<i[i-1];j++) {
-        if(i>j) {
-            let max= ""
+function MyMax(myarr){
+    let al = myarr.length;
+    maximum = myarr[al-1];
+    while (al--){
+        if(myarr[al] > maximum){
+            maximum = myarr[al]
         }
     }
-}
+    return maximum;
+};
