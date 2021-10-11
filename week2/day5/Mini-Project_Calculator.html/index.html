@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        button {
+            width:70px;
+            height:70px;
+        }
+        .display-box {
+            font-family: 'Orbitron', sans-serif;
+            background-color: #dcdbe1;
+            border: solid black 0.5px;
+            color: black;
+            border-radius: 5px;
+            width:200px;
+            height:100px;
+        }
+    </style>
+</head>
+<body>
+<tr>
+    <td colspan = "3"> <input class = "display-box" type = "text" id = "result" disabled /> </td>
+</tr>
+<br>
+<br>
+<button type="button" name="button" onclick="display(1);">1</button>
+<button type="button" name="button" onclick="display(2);">2</button>
+<button type="button" name="button" onclick="display(3);">3</button>
+<br>
+<button type="button" name="button" onclick="display(4);">4</button>
+<button type="button" name="button" onclick="display(5);">5</button>
+<button type="button" name="button" onclick="display(6);">6</button>
+<br>
+<button type="button" name="button" onclick="display(7);">7</button>
+<button type="button" name="button" onclick="display(8);">8</button>
+<button type="button" name="button" onclick="display(9);">9</button>
+<button type="button" name="button" onclick="display(0);">0</button>
+<br>
+<button type="button" name="button" onclick="display('+');">+</button>
+<button type="button" name="button" onclick="display('-');">-</button>
+<button type="button" name="button" onclick="display('*');">*</button>
+<button type="button" name="button" onclick="display('/');">/</button>
+<br>
+<button type="button" name="button" onclick="equal();">=</button>
+<button type="button" name="button" onclick="reset();">RESET</button>
+<button type="button" name="button" onclick="clearScreen();">CLEAR</button>
+<script src="main.js" charset="utf-8"></script>
+</body>
+</html>
