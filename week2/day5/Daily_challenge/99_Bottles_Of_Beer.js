@@ -12,10 +12,11 @@ for (var counter = 99; counter >= 1; counter = counter - 1)
         console.log(counter+" "+bottles+" of beer on the wall.");
     }
     console.log(counter+" "+bottles+" of beer.");
-    for(let i<counter;i=0;i++) {
+    /*for(let i<counter;i=0;i++) {
         let numberTake=numberTake+i;
         console.log("Take" +numberTake + "down.");
-}
+}*/
+        console.log("Take one down" )
     console.log("Pass it around.");
     if (counter == 1) {
         console.log("No bottles of beer on the wall.");
