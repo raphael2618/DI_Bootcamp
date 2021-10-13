@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4111168e-137d-468c-b7f4-e3494f9937f1" name="Default Changelist" comment="Day5">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week3/.idea/dictionaries/raphael.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week1/Day5/portfolio/raphael_site" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/Day5/portfolio/raphael_site" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3/day1/Daily_challenge/Daily_challenge.html" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/day1/Daily_challenge/Daily_challenge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3/day1/Daily_challenge/Planets.js" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/day1/Daily_challenge/Planets.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +111,7 @@
       <workItem from="1634029195195" duration="2856000" />
       <workItem from="1634037732697" duration="1462000" />
       <workItem from="1634039284728" duration="2108000" />
+      <workItem from="1634125413597" duration="1354000" />
     </task>
     <task id="LOCAL-00001" summary="Day1">
       <created>1633640829429</created>
