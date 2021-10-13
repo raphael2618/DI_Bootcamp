@@ -20,5 +20,7 @@ ul[0].appendChild(newVar)
 //     Bonus
 // Use the firstElementChild and the lastElementChild properties to retrieve the first and last li elements
 // from their parent element (ul). Display the text of each link. (Hint: use the textContent property).
- console.log(li.firstElementChild ).textContent
- console.log(ul.lastElementChild ).textContent
+let first = ul.firstElementChild(li)
+console.log(first.innerText)
+let last = ul.lastElementChild(li)
+console.log(last.innerText)
