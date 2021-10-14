@@ -7,9 +7,7 @@ function playTheGame() {
     }
     // If his answer is true, follow these steps:
     else {
-        if (playUser != true) {
-            return;
-        }
+
         let userNumber = parseInt(prompt("Enter a number between 0 and 10"), 10)
         while (isNaN(userNumber)) {
             userNumber = parseInt(prompt("Enter a number between 0 and 10"), 10)

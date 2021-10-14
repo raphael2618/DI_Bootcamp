@@ -31,10 +31,10 @@ for (let i = 0; i < paragraphe.length; i++) {
 document.body.appendChild(btn);
 
 let btnForm =document.getElementById("submit")
-let NameInput =  document.getElementById("fname").value
-let LastNameInput =  document.getElementById("lname").value
+let NameInput =  document.getElementById("fname")
+let LastNameInput =  document.getElementById("lname")
 btnForm.addEventListener("click", function () {
-    if(NameInput==='' || LastNameInput==='') {
+    if( LastNameInput.value===''||LastNameInput.value==='') {
         //display everytime
         alert("Input empty. Fill all the input of the form.")
     }
@@ -46,7 +46,13 @@ document.body.appendChild(btnForm);
     let row = tbl.insertRow(0);
     let cell1 = row.insertCell(0);
     let cell2 = row.insertCell(1);
-    cell1.textContent = NameInput;
-    cell2.textContent = LastNameInput;
+    cell1.textContent = NameInput.value;
+    cell2.textContent = LastNameInput.value;
     document.body.appendChild(tbl);
+
+let sec_Paragraphe = document.getElementById("par2")
+sec_Paragraphe.addEventListener(onmouseover,function() {
+    this.style.  opacity= 1;
+    this.style.transition="opacity 1000ms"
+})
 
