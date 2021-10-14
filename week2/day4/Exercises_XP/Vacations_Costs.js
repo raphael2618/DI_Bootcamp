@@ -1,13 +1,13 @@
-function hotelCost() {
-    // It should ask the user for the number of nights they would like to stay in the hotel.
-    let nightUser = prompt("Which number of night would you like to stay ?")
-    //If the user doesn’t answer or if the answer is not a number, ask again.
-    if(typeof nightUser!=="number"||nightUser=="") {
-        nightUser = prompt("Which number of night would you like to stay ?")
+function hotelCost(){
+    let nights = parseInt(prompt("How many nights are you staying in the hotel? "))
+    let totalCost = nights *= 140;
+    if (isNaN(nights)) {
+        nights= parseInt(prompt("You did not enter a number, Please enter a number."))
+        totalCost = nights *= 140;
     }
-    //The hotel costs $140 per night. The function should return the total price of the hotel.
-    console.log(nightUser * 140 )
+    return(alert(`The total cost of your hotel is ${totalCost}`))
 }
+
 
 function planeRideCost() {
     let destinationUser = prompt("where would you like to travel ?")
