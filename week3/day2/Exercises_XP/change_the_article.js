@@ -35,11 +35,13 @@ let NameInput =  document.getElementById("fname")
 let LastNameInput =  document.getElementById("lname")
 btnForm.addEventListener("click", function () {
     if( LastNameInput.value===''||LastNameInput.value==='') {
-        //display everytime
         alert("Input empty. Fill all the input of the form.")
     }
 })
 document.body.appendChild(btnForm);
+
+   let divAnswer = document.getElementById("usersAnswer")
+
 
     tbl  = document.createElement('table');
 
@@ -48,7 +50,7 @@ document.body.appendChild(btnForm);
     let cell2 = row.insertCell(1);
     cell1.textContent = NameInput.value;
     cell2.textContent = LastNameInput.value;
-    document.body.appendChild(tbl);
+    divAnswer.appendChild(tbl);
 
 let sec_Paragraphe = document.getElementById("par2")
 sec_Paragraphe.addEventListener(onmouseover,function() {

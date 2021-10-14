@@ -11,14 +11,20 @@ btn.addEventListener("click", function () {
     }
     let strIng = "ing "
     let newVerb = inputValue.verb.value + strIng
-    alert("The story of " + inputValue.person.value + " and " + "the " + inputValue.adjective.value + " " + inputValue.noun.value + " " + newVerb + " in "  + inputValue.place.value   )
+    let personEl = inputValue.person.value
+    let strPluriel = " "
+    if (personEl.split(" ").length > 1) {
+        strPluriel = " are "
+    } else { strPluriel = " is "}
+
+    alert("The story of " + inputValue.person.value + " and " + "the " + inputValue.adjective.value + " " + inputValue.noun.value + " that" + strPluriel + newVerb + " in "  + inputValue.place.value   )
 })
 
 //to test the programme, you can give default value to the input.
-let verbD = document.getElementById("verb").defaultValue="eat"
-let nounD = document.getElementById("noun").defaultValue="hamburger"
-let placeD = document.getElementById("place").defaultValue="rotshild street"
-let adjectiveD = document.getElementById("adjective").defaultValue="big"
-let personD = document.getElementById("person").defaultValue="amihai"
+let verbD = document.getElementById("verb").defaultValue="find"
+let nounD = document.getElementById("noun").defaultValue="job"
+let placeD = document.getElementById("place").defaultValue="company"
+let adjectiveD = document.getElementById("adjective").defaultValue="good"
+let personD = document.getElementById("person").defaultValue="fayga raphael"
 
 
