@@ -5,7 +5,8 @@
     <title>Letters</title>
 </head>
 <body>
-<input type="text" id="letters" onkeyup="Validate()">
+<input type="text" id="txtName" onkeypress="return Validate(event);" />
+<span id="lblError" style="color: red"></span>
 <script src="letters.js"></script>
 
 </body>
