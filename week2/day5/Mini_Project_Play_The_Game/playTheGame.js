@@ -12,11 +12,11 @@ function playTheGame() {
         while (isNaN(userNumber)) {
             userNumber = parseInt(prompt("Enter a number between 0 and 10"), 10)
         }
-        if (!(userNumber > 0 && userNumber <= 10)) {
+        if (!(userNumber > 0 || userNumber <= 10)) {
             console.log("Sorry it’s not a good number, Goodbye")
 
 
-        } else if (userNumber > 0 && userNumber <= 10) {
+        } else if (userNumber > 0 || userNumber <= 10) {
             let computerNumber = Math.round(Math.floor(Math.random() * 11))
         }
     }
