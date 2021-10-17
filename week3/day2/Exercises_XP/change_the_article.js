@@ -34,27 +34,55 @@ let btnForm =document.getElementById("submit")
 let NameInput =  document.getElementById("fname")
 let LastNameInput =  document.getElementById("lname")
 btnForm.addEventListener("click", function () {
-    if( LastNameInput.value===''||LastNameInput.value==='') {
+    if( LastNameInput.value===''||NameInput.value==='') {
         alert("Input empty. Fill all the input of the form.")
     }
+
+    let table = document.createElement('table');
+    let thead = document.createElement('thead');
+    let tbody = document.createElement('tbody');
+
+
+// Adding the entire table to the body tag
+    let UserAnswer = document.getElementsByClassName("usersAnswer")[0]
+// Creating and adding data to first row of the table
+    let row_1 = document.createElement('tr');
+    let heading_2 = document.createElement('th');
+    heading_2.innerHTML = "Name";
+    let heading_3 = document.createElement('th');
+    heading_3.innerHTML = "Last name";
+
+    row_1.appendChild(heading_2);
+    row_1.appendChild(heading_3);
+    thead.appendChild(row_1);
+
+// Creating and adding data to second row of the table
+    let row_2 = document.createElement('tr');
+    let row_2_data_2 = document.createElement('td');
+// row_2_data_2.innerHTML = "Rzphzrl" ;
+    row_2_data_2.innerHTML = LastNameInput.value ;
+    let row_2_data_3 = document.createElement('td');
+    row_2_data_3.innerHTML = NameInput.value;
+// row_2_data_3.innerHTML = "BOUSS";
+
+    row_2.appendChild(row_2_data_2);
+    row_2.appendChild(row_2_data_3);
+    tbody.appendChild(row_2);
+
+
+    table.appendChild(thead);
+    table.appendChild(tbody);
+
+    UserAnswer.appendChild(table)
+    NameInput.value="";
+    LastNameInput.value="";
+
 })
-document.body.appendChild(btnForm);
-
-   let divAnswer = document.getElementById("usersAnswer")
-
-
-    tbl  = document.createElement('table');
-
-    let row = tbl.insertRow(0);
-    let cell1 = row.insertCell(0);
-    let cell2 = row.insertCell(1);
-    cell1.textContent = NameInput.value;
-    cell2.textContent = LastNameInput.value;
-    divAnswer.appendChild(tbl);
+document.body.appendChild(btnForm)
 
 let sec_Paragraphe = document.getElementById("par2")
 sec_Paragraphe.addEventListener(onmouseover,function() {
-    this.style.  opacity= 1;
+    this.style.  opacity= "1";
     this.style.transition="opacity 1000ms"
 })
 
