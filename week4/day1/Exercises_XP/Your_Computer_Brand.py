@@ -1,2 +1,2 @@
-computer_brand ="hp"
-print("I have a ",computer_brand,"computer")
+computer_brand = "hp"
+print("I have a ", computer_brand, "computer\n")
