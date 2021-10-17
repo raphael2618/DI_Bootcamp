@@ -10,7 +10,10 @@ let body = document.getElementsByTagName('body')[0]
 body.style.fontSize = "12px"
 
 if (colorback=="light blue") {
-    alert("Hello")
+    let Pete =elUl0.textContent
+    let john = elUl1.textContent
+    alert("hello users " + Pete +" and " + john)
+
 }
 
 

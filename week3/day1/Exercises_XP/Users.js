@@ -1,17 +1,14 @@
+
 // In the HTML above change the name “Pete” to “Richard”.
-liEl = document.getElementsByTagName('li')
+let liEl = document.getElementsByTagName('li')
 liEl[1].innerText ="Richard"
 
 // Change each first name of the two <ul>'s to your name.
-let liElement = document.getElementsByTagName('ul > li')
+let liJohn = document.getElementsByTagName('li')[0]
+let liDavid = document.getElementsByTagName('li')[2]
 let ulElement = document.getElementById("list")
-/*for(let i =0;i<2;i++) {
-    ulElement[i].innerText="Raphael"
-}*/
-
-let changeName = document.querySelectorAll('li')
-changeName[0] = "raphael"
-changeName[2] = "raphael"
+liJohn.innerText="raphael"
+liDavid.innerText="raphael"
 
 // document.getElementsByTagName("li")[0]="raphael"
 // At the end of each <ul> add a <li> that says “Hey students”.
@@ -25,11 +22,14 @@ SarahPos.parentElement.removeChild(SarahPos)
 
 // Bonus
 // Add a class called student_list to both of the <ul>'s.
-document.getElementsByTagName('ul > li:firstChild')
-
-ulElement.classList.add("student_list")
+liJohn.classList.add("student_list")
+liDavid.classList.add("student_list")
 
 // Add the classes university and attendance to the first <ul>.
+let listItems = document.querySelectorAll('ul > li');
+liJohn.classList.add("attendance")
+liDavid.classList.add("university")
+
 
 
 
