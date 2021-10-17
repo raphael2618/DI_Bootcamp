@@ -1,24 +1,25 @@
-var bottles = prompt("Enter number to begin counting down bottles");
-for (var counter = 99; counter >= 1; counter = counter - 1)
-{
-    if (counter == 1) {
-        bottles = 'bottle';
-    } else {
-        bottles = 'bottles';
+let userPrompt = prompt('Welcome to the "99 Bottles of Beer" song!\nEnter a number:');
+
+const isValidNum = (numberV) => numberV !== undefined && numberV !== null && numberV.length > 0 && !isNaN(numberV);
+
+while (!isValidNum(userPrompt)) userPrompt = prompt('InuserPromptalid try again?!\nEnter a number:');
+
+const sing = (userPrompt) => {
+
+    let total = userPrompt;
+
+    for (let i = 1; i <= total; i++) {
+        console.log(`${total} ${total > 1 ? 'bottles' : 'bottle'} of beer on the wall`);
+        console.log(`${total} ${total > 1 ? 'bottles' : 'bottle'} of beer`);
+        console.log(`Take ${i} down, pass ${i > 1 ? 'them' : 'it'} around`);
+        total -= i;
+        console.log(`${total - i < 1 ? 'Not enough' : total > 1 ? 'bottles' : 'bottle'} bottles of beer on the wall`);
     }
-    console.log(counter+" "+bottles+" of beer on the wall.");
-    if (counter < 99) {
-        console.log("");
-        console.log(counter+" "+bottles+" of beer on the wall.");
-    }
-    console.log(counter+" "+bottles+" of beer.");
-    /*for(let i<counter;i=0;i++) {
-        let numberTake=numberTake+i;
-        console.log("Take" +numberTake + "down.");
-}*/
-        console.log("Take one down" )
-    console.log("Pass it around.");
-    if (counter == 1) {
-        console.log("No bottles of beer on the wall.");
-    }
+    console.log(`Not enough bottles of beer on the wall`);
+    console.log(`Not enough bottles of beer`);
+    console.log(`Go to the store and buy some more`);
+    console.log(`${userPrompt} bottles of beer on the wall`);
 }
+
+
+sing(Number(userPrompt));
