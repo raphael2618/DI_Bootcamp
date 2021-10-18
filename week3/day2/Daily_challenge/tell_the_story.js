@@ -1,12 +1,12 @@
 let inputValue = document.getElementsByTagName("input")
 let btn = document.getElementById("lib-button")
 btn.addEventListener("click", function () {
-    for(let i=0;i<inputValue.length;i++) {
-        let arrayInput = []
-        arrayInput.push(inputValue)
-
-    }
-    if(inputValue.value==="") {
+    let verbD = document.getElementById("verb").value
+    let nounD = document.getElementById("noun").value
+    let placeD = document.getElementById("place").value
+    let adjectiveD = document.getElementById("adjective").value
+    let personD = document.getElementById("person").value
+    if(verbD==""||nounD==""||placeD==""||adjectiveD==""||personD=="") {
         alert("Fill all the input of the form.")
     }
     let streetValue = inputValue.place.value
@@ -24,12 +24,12 @@ btn.addEventListener("click", function () {
     spanStory.innerHTML="The story of " + inputValue.person.value + " and " + "the " + inputValue.adjective.value + " " + inputValue.noun.value + " that" + strPluriel + newVerb + onS  + inputValue.place.value
 })
 
-//to test the programme, you can give default value to the input.
-let verbD = document.getElementById("verb").defaultValue="find"
-let nounD = document.getElementById("noun").defaultValue="job"
-let placeD = document.getElementById("place").defaultValue="company"
-let adjectiveD = document.getElementById("adjective").defaultValue="good"
-let personD = document.getElementById("person").defaultValue="fayga raphael"
+// //to test the programme, you can give default value to the input.
+// let verbD = document.getElementById("verb").defaultValue="find"
+// let nounD = document.getElementById("noun").defaultValue="job"
+// let placeD = document.getElementById("place").defaultValue="company"
+// let adjectiveD = document.getElementById("adjective").defaultValue="good"
+// let personD = document.getElementById("person").defaultValue="fayga raphael"
 
 
 
