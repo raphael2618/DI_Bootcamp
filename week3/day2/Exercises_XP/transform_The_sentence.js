@@ -1,52 +1,23 @@
-// Create a function called getBold_items() that takes no parameter.
-// This function should collect all the bold items inside the paragraph.
-
-function getBold_Items() {
-    let strongElements = document.querySelectorAll('strong');
-    for (let i = 0; i < strongElements.length; i++) {
-        let strongValue = strongElements[i].textContent;
-        // console.log(strongValue)
-        let array = []
-        array.push(strongValue)
-        return strongValue
-    }
-
+let strong = document.querySelectorAll("strong")
+console.log(strong)
+function getBold (){
+    let getStrong = document.querySelectorAll("strong")
+    console.log(getStrong)
 }
-getBold_Items()
+getBold()
 
-
-//     Create a function called highlight() that changes the color of all the bold text to blue.
-function highlight(color) {
-    let Bold_values_result =getBold_Items()
-    console.log(Bold_values_result )
-    for(let i=0;i<strongValue.length;i++) {
-        let c = strongValue[i]
-        c.style.color=color
+function highlight() {
+    for (i = 0; i < strong.length; i++) {
+        strong[i].style.color = "blue";
     }
 }
-highlight()
-//     Create a function called return_normal() that changes the color of all the bold text back to black.
-function return_normal() {
-    highlight("black")
-
-}
-
-//     Call the function highlight() v (ie. when the mouse pointer is moved onto the paragraph),
-//     and the function return_normal() onmouseout (ie. when the mouse pointer is moved out of the paragraph). Look at this example for (let i = 0; i < paragraphe.length; i++) {
-let result_H = highlight()
-let bold_result = getBold_Items()
-let return_Normal_Result = return_normal()
-let strongElements = document.querySelectorAll('strong');
-
-bold_result.addEventListener("onmouseover", function () {
-        for (let i = 0; i < strongElements.length; i++) {
-            result_H
-        }
-    })
-
-return_Normal_Result.addEventListener("onmouseout", function () {
-    for (let i = 0; i < strongElements.length; i++) {
-        return_Normal_Result
+function return_normal(){
+    notbold = document.getElementsByTagName("p")[0];
+    for(let i = 0 ; i < notbold.childElementCount;i++){
+        notbold.children[i].style.fontWeight="normal";
+        notbold.children[i].style.color="black";
     }
-})
-
+}
+let p = document.getElementsByTagName("P")[0];
+p.addEventListener("mouseover",highlight);
+p.addEventListener("mouseout",return_normal);

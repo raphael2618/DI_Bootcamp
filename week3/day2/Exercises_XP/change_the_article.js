@@ -81,8 +81,10 @@ btnForm.addEventListener("click", function () {
 document.body.appendChild(btnForm)
 
 let sec_Paragraphe = document.getElementById("par2")
-sec_Paragraphe.addEventListener(onmouseover,function() {
+sec_Paragraphe.addEventListener("mouseover", function() {
     this.style.  opacity= "1";
-    this.style.transition="opacity 1000ms"
+    this.style.transition="opacity 1000ms";
 })
+
+
 
