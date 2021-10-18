@@ -8,10 +8,7 @@ btn.addEventListener("click", function () {
     eventEl.style.cursor="pointer"
     eventEl.style.border="1px solid black"
     eventEl.style.margin="5px"
-    eventEl.style.backgroundColor="blue"
+    eventEl.style.textAlign="center"
     eventEl.title="Test"
     eventEl.classList.add("test")
-
-
-
 })
