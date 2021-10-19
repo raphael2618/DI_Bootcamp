@@ -59,11 +59,9 @@ btnForm.addEventListener("click", function () {
 // Creating and adding data to second row of the table
     let row_2 = document.createElement('tr');
     let row_2_data_2 = document.createElement('td');
-// row_2_data_2.innerHTML = "Rzphzrl" ;
     row_2_data_2.innerHTML = LastNameInput.value ;
     let row_2_data_3 = document.createElement('td');
     row_2_data_3.innerHTML = NameInput.value;
-// row_2_data_3.innerHTML = "BOUSS";
 
     row_2.appendChild(row_2_data_2);
     row_2.appendChild(row_2_data_3);
@@ -73,9 +71,18 @@ btnForm.addEventListener("click", function () {
     table.appendChild(thead);
     table.appendChild(tbody);
 
+
+    let row = UserAnswer.insertRow(0);
+    let cell1 = row.insertCell(0);
+    let cell2 = row.insertCell(1);
+    cell1.innerHTML = LastNameInput.value;
+    cell2.innerHTML = NameInput.value;
+
     UserAnswer.appendChild(table)
     NameInput.value="";
     LastNameInput.value="";
+
+
 
 })
 document.body.appendChild(btnForm)
