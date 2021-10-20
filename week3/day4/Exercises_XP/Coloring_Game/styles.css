@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -29,9 +30,6 @@ body{
 
     height: 100vh;
 
-    /* background-color: darkgrey; */
-    /* border: 2px red solid; */
-
     padding: 5px 5px 5px 0;
 }
 
@@ -40,16 +38,16 @@ body{
 }
 
 #main > * {
-    border: 1px lightgray solid;
+    border: 2px lightgray solid;
     background-color: white;
 }
 
 button {
     grid-column: 1/4;
 
-    background-color: whitesmoke; /* Green */
+    background-color: whitesmoke;
     border: none;
-    border-radius: 8px;
+    border-radius: 6px;
     color:black;
     padding: 5px;
     text-align: center;
