@@ -1,3 +1,4 @@
+
 let statusDisplay = document.querySelector('.game--status');
 
 let gameActive = true;
@@ -10,6 +11,7 @@ const currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
 
 statusDisplay.innerHTML = currentPlayerTurn();
 
+//all the prossibilities to win the game
 const winningConditions = [
     [0, 1, 2],
     [3, 4, 5],
@@ -21,16 +23,19 @@ const winningConditions = [
     [2, 4, 6]
 ];
 
+//fill the cell on click
 function handleCellPlayed(clickedCell, clickedCellIndex) {
     gameState[clickedCellIndex] = currentPlayer;
     clickedCell.innerHTML = currentPlayer;
 }
 
+//change player function
 function handlePlayerChange() {
     currentPlayer = currentPlayer === "X" ? "O" : "X";
     statusDisplay.innerHTML = currentPlayerTurn();
 }
 
+//check the result of the game
 function handleResultValidation() {
     let roundWon = false;
     for (let i = 0; i <= 7; i++) {
@@ -47,19 +52,20 @@ function handleResultValidation() {
         }
     }
 
+    //if win print message and stop the game
     if (roundWon) {
         statusDisplay.innerHTML = winningMessage();
         gameActive = false;
         return;
     }
-
-    let roundDraw = !gameState.includes("");
+//if game not finish with a winner print drawmessage
+let roundDraw = !gameState.includes("");
     if (roundDraw) {
         statusDisplay.innerHTML = drawMessage();
         gameActive = false;
         return;
     }
-
+//make the player change from x to o
     handlePlayerChange();
 }
 
@@ -75,6 +81,7 @@ function handleCellClick(clickedCellEvent) {
     handleResultValidation();
 }
 
+//restart button function clear all the cells
 function handleRestartGame() {
     gameActive = true;
     currentPlayer = "X";
@@ -83,5 +90,7 @@ function handleRestartGame() {
     document.querySelectorAll('.cell').forEach(cell => cell.innerHTML = "");
 }
 
+//add event listener to click on the cell
+//add event listener to click on restart button
 document.querySelectorAll('.cell').forEach(cell => cell.addEventListener('click', handleCellClick));
 document.querySelector('.game--restart').addEventListener('click', handleRestartGame);

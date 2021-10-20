@@ -1,24 +1,22 @@
+import datetime
 
-
-cake ='''
-|:H: a:p: p:y: |
-__ | ___________ | __________________
-| ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ |
-|:B: i:r: t:h: d:a: y: |
-| |                 |  |
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cake = '''
+   |:H:a:p:p:y:|
+ __|___________|__
+|^^^^^^^^^^^^^^^^^|
+֫|:B:i:r:t:h:d:a:y:|
+|                 |
+~~~~~~~~~~~~~~~~~~~
 '''
 
-import datetime
 today = datetime.datetime.now().date()
 day, month, year = input("Enter birthdate in the format dd/mm/yyyy: ").split("/")
 print("You are born the : ", day, month, year)
-YearUSer = int(year)
-todayD = datetime.date.today()
-UserAge = todayD.year - YearUSer
+diff_time = datetime.date.today() - datetime.date(int(year), int(month), int(day))
+UserAge = diff_time.days // 365
 print("Your age is :", UserAge)
 units = UserAge % 10
+num = "_" * ((12 - units) // 2)
+print(f"    {num}{units * 'i'}{num}", end='')
 
-print(units * "i")
-for letter in cake:
-    print(letter, end='')
+print(cake)

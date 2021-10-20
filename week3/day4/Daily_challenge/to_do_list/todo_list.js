@@ -6,7 +6,8 @@ function loadEvents(){
   document.querySelector('ul').addEventListener('click',deleteOrTick);
 
 }
-// submit data function
+
+//add button function
 function submit(e){
   e.preventDefault();
   let taskList;
@@ -25,7 +26,7 @@ function addTask(task){
   document.querySelector('.tasksBoard').style.display = 'block';
 }
 
-// clear zll the LIST
+// clear zll the list
 function clearList(e){
   let ul = document.querySelector('ul').innerHTML = '';
 }
@@ -52,7 +53,8 @@ function tickTask(e){
   if(e.target.checked){
     task.style.textDecoration = "line-through";
     task.style.color = "#ff0000";
-  }else {
+  }
+  else {
     task.style.textDecoration = "none";
     task.style.color = "#2f4f4f";
   }
