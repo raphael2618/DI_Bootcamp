@@ -9,6 +9,7 @@ cake = '''
 ~~~~~~~~~~~~~~~~~~~
 '''
 
+n = input("Enter your name ?")
 today = datetime.datetime.now().date()
 day, month, year = input("Enter birthdate in the format dd/mm/yyyy: ").split("/")
 print("You are born the : ", day, month, year)
