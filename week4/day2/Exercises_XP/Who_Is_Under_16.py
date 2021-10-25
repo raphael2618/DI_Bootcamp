@@ -1,7 +1,8 @@
 list = ["raphael", "samuel", "fayga", "jeremie"]
-# lenghtList = len(list)
-for i in list:
-    userAge = int(input("Enter a number"))
+lenghtList = len(list)
+for i in range(lenghtList):
+    userAge = int(input("Enter your age"))
     if userAge < 16:
-        ageUserRm = str(userAge[i])
-        list.remove(ageUserRm)
+        list.pop(i)
+        continue
+    print(list)
