@@ -6,12 +6,12 @@ brand = {'name': 'Zara', 'creation_date': 1975, 'creator_name': 'Amancio Ortega 
                          'US': ('pink', 'green')
                          }, 'country_creation': "Spain"}
 
-# print("Zara is a company created in", brand['creation_date'], "by", brand['creator_name'] + "." +
-#       "his clothes are for", brand['type_of_clothes'], brand['international_competitors'],
-#       "his international competitor are :")
+print("Zara is a company created in", brand['creation_date'], "by", brand['creator_name'] + "." +
+      "his clothes are for", brand['type_of_clothes'], brand['international_competitors'],
+      "his international competitor are :")
 
-if brand['international_competitors'] in brand:
-    brand['international_competitors'] = "Disigual"
+if brand['international_competitors'] in brand.keys():
+    brand['international_competitors'] = 'Gap', 'H & M', 'Benetton', 'Disigual'
 
 del brand['creation_date']
 
