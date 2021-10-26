@@ -1,4 +1,5 @@
 import datetime
+from pyfiglet import *
 
 cake = '''
    |:H:a:p:p:y:|
@@ -9,7 +10,7 @@ cake = '''
 ~~~~~~~~~~~~~~~~~~~
 '''
 
-n = input("Enter your name ?")
+name = input("Enter your name")
 today = datetime.datetime.now().date()
 day, month, year = input("Enter birthdate in the format dd/mm/yyyy: ").split("/")
 print("You are born the : ", day, month, year)
@@ -21,3 +22,7 @@ num = "_" * ((12 - units) // 2)
 print(f"    {num}{units * 'i'}{num}", end='')
 
 print(cake)
+msg = 'Happy Birthday'
+HB = figlet_format(msg, font='slant')
+name = figlet_format(name, font='slant')
+print(HB + name)
