@@ -10,7 +10,7 @@ class Documentation:
 
     print(inputMethod.__doc__)
 
-    def absMethod(self):
+    def __abs__(self):
         """
         The abs() function returns the absolute value of the given number.
         If the number is a complex number, abs() returns its magnitude.
@@ -30,9 +30,9 @@ class Documentation:
         absolute_number = abs(number)
         print(absolute_number)
 
-    print(absMethod.__doc__)
+    print(__abs__.__doc__)
 
-    def intMethod(self):
+    def __int__(self):
         """
         The int() method can be used to convert a string to an integer value in Python.
 
@@ -45,4 +45,4 @@ class Documentation:
         stringConvertToInt = int(stringTest)
         print(type(stringConvertToInt))
 
-    print(intMethod.__doc__)
+    print(__int__.__doc__)
