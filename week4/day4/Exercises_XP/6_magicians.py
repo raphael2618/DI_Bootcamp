@@ -3,6 +3,7 @@ def show_magicians(magicians):
     for magician in magicians:
         print(magician)
 
+
 def make_great(magicians):
     """Add 'the Great!' to each magician's name."""
     # Build a new list to hold the great musicians.
@@ -17,6 +18,7 @@ def make_great(magicians):
     # Add the great magicians back into magicians.
     for great_magician in great_magicians:
         magicians.append(great_magician)
+
 
 magicians = ['Harry Houdini', 'David Blaine', 'Teller']
 show_magicians(magicians)
