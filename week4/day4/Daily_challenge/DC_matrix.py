@@ -23,12 +23,12 @@ for words in matrix:
 print(re.sub(r'(?<=\w)([^\w\d]+)(?=\w)', ' ', sample))
 
 
-'''matrix = 
-# [7 3
+matrix =
+[7 3
 Tsi
 h%x
 i #
 sM 
 $a 
 #t%
-ir!]'''
+ir!]
