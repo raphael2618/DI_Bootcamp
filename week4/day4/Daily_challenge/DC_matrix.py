@@ -1,20 +1,27 @@
-import sys
 import re
-N, M = map(int, sys.stdin.readline().split())
-rows = [sys.stdin.readline()[:M] for i in xrange(N)]
 
-cols = [''.join([rows[i][j] for i in xrange(N)]) for j in xrange(M)]
-decode = ''.join(cols)
 
-print(re.sub('([0-9a-zA-Z])[^0-9a-zA-Z]+([0-9a-zA-Z])', '\g<1> \g<2>', decode))
+first_multiple_input = input().rstrip().split()
 
-bdict = {True: 1, False: 0}
-fanum = -max([-i*bdict[c.isalnum()] for i, c in enumerate(decode)])
-lanum = max([i*bdict[c.isalnum()] for i, c in enumerate(decode)])+1
+n = int(first_multiple_input[0])
+m = int(first_multiple_input[1])
 
-decsub = decode[fanum:lanum]
-decsub = re.sub('[^0-9a-zA-Z]+', ' ', decsub)
-print(decode[:fanum] + decsub + decode[lanum:])
+matrix = []
+
+for _ in range(n):
+    matrix_item = input()
+    matrix.append(matrix_item)
+
+matrix = list(zip(*matrix))
+
+sample = str()
+
+for words in matrix:
+    for char in words:
+        sample += char
+
+print(re.sub(r'(?<=\w)([^\w\d]+)(?=\w)', ' ', sample))
+
 
 '''matrix = 
 # [7 3
