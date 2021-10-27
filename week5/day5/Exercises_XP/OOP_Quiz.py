@@ -1,3 +1,34 @@
+'''A user-defined prototype for an object that defines a set of attributes that characterize any object of the class.
+The attributes are data members (class variables and instance variables) and methods, accessed via dot notation. '''
+
+'''An individual object of a certain class. An object obj that belongs to a class Circle, 
+for example, is an instance of the class Circle. '''
+
+'''Encapsulation is the packing of data and functions that work on that data within a single object. By doing so, 
+you can hide the internal state of the object from the outside. This is known as information hiding. '''
+
+'''Abstraction is used to hide the internal functionality of the function from the users. The users only interact 
+with the basic implementation of the function, but inner working is hidden. '''
+
+'''
+The transfer of the characteristics of a class to other classes that are derived from it.
+'''
+
+'''
+A class can be derived one base class in Python.
+In multiple inheritance, the features of all the base classes are inherited into the derived class.
+'''
+
+'''Polymorphism defines the ability to take different forms. Polymorphism in Python allows us to define methods in 
+the child class with the same name as defined in their parent class. '''
+
+'''
+how to resolve a method or attribute. MRO is from bottom to top and left to right.
+'''
+
+
+
+
 from random import shuffle
 
 class Card:
