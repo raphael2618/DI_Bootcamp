@@ -8,10 +8,20 @@ decode = ''.join(cols)
 
 print(re.sub('([0-9a-zA-Z])[^0-9a-zA-Z]+([0-9a-zA-Z])', '\g<1> \g<2>', decode))
 
-#bdict = {True: 1, False: 0}
-#fanum = -max([-i*bdict[c.isalnum()] for i, c in enumerate(decode)])
-#lanum = max([i*bdict[c.isalnum()] for i, c in enumerate(decode)])+1
+bdict = {True: 1, False: 0}
+fanum = -max([-i*bdict[c.isalnum()] for i, c in enumerate(decode)])
+lanum = max([i*bdict[c.isalnum()] for i, c in enumerate(decode)])+1
 
-#decsub = decode[fanum:lanum]
-#decsub = re.sub('[^0-9a-zA-Z]+', ' ', decsub)
-#print decode[:fanum] + decsub + decode[lanum:]
+decsub = decode[fanum:lanum]
+decsub = re.sub('[^0-9a-zA-Z]+', ' ', decsub)
+print(decode[:fanum] + decsub + decode[lanum:])
+
+'''matrix = 
+# [7 3
+Tsi
+h%x
+i #
+sM 
+$a 
+#t%
+ir!]'''
