@@ -8,15 +8,16 @@ first_name varchar(100),
 birth_date date
 );
 
-insert into students(
-values (last_name,first_name,birth_date)
-('Marc',	'Benichou',	'02/11/1998'),
-('Cohen',	'Yoan',	'03/12/2010'),
-('Lea',	'Benichou',	'27/07/1987'),
-('Amelia',	'Dux',	'07/04/1996') ,
-('David',	'Grez',	'14/06/2003') ,
-('Omer',	'Simpson',	'03/10/1980')
-);
+
+insert into students(last_name,first_name,birth_date)
+values
+('Marc',	'Benichou',	'2010-10-02'),
+('Cohen',	'Yoan',	'2010-12-03'),
+('Lea',	'Benichou',	'1987-07-27'),
+('Amelia',	'Dux',	'1996-04-07') ,
+('David',	'Grez',	'2003-06-14') ,
+('Aurelie',	'Laura',	'2003-06-13') ,
+('Omer',	'Simpson',	'1980-10-03');
 
 -- Fetch all of the data from the table.
 select * from students;
@@ -40,10 +41,10 @@ select * from students where first_name like 'a%';
 -- Fetch the students whose first_names end with the letter a.
 select * from students where first_name like '%a';
 -- Fetch the students whose second to last letter of their first_names are a (Example: Leah).
-select * from students where SUBSTR(last_name, 2, 1) = 'a';
+select * from students where SUBSTR(first_name, 2, 1) = 'a';
 -- Fetch the students whose id’s are equal to 1 AND 3 .
 select * from students where id=1 or id=3;
 
 -- Fetch the students whose birth_dates are equal to or come after 1/01/2000. (show all their info).
-select * from students where date_birth>='1/01/2000';
+select * from students where birth_date>='2000-01-01';
 

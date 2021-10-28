@@ -22,15 +22,15 @@ VALUES ("Greg", "Jones"),
 ("Trevor", "Green"),
 ("John", "Smith"),
 ("Melanie", "Johnson");
-# all the items
+-- # all the items
 select * from items;
-# All the items with a price above 80 (80 not included).
+-- # All the items with a price above 80 (80 not included).
 select * from items where price < 80;
-# All the items with a price below 300. (300 included)
+-- # All the items with a price below 300. (300 included)
 select * from items where price < 300;
-# All customers whose last name is ‘Smith’ (What will be your outcome?).
+-- # All customers whose last name is ‘Smith’ (What will be your outcome?).
 select * from customers where last_name="Smith" ;
-# All customers whose last name is ‘Jones’.
+-- # All customers whose last name is ‘Jones’.
 select * from customers where last_name="Jones" ;
-# All customers whose firstname is not ‘Scott’.
+-- # All customers whose firstname is not ‘Scott’.
 select * from customers where first_name="Scott" ;
