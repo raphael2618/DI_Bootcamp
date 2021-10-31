@@ -11,12 +11,16 @@ class Zoo:
         for i in self.animal_list:
             return i
 
-    def sell_animal(self):
-        for i in self.animal_list:
+    def sell_animal(self,i):
+        if i in self.animal_list:
             del i
 
     def sort_animals(self):
         self.animal_list.sort()
+
+    def get_groups(self):
+        print(self.animal_list)
+
 
 
 ramat_gan_safari = ["cat", "cougar", "dog", "bear", "emu", "eel"]
