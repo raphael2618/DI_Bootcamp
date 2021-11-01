@@ -1,4 +1,5 @@
 '''
+1
 from datetime import date
 def dateOfToday():
     dateOfTodayV = date.today()
@@ -8,6 +9,7 @@ dateOfToday()
 '''
 
 '''
+2
 import datetime
 date_entry = input('Enter a date in YYYY-MM-DD format')
 year, month, day = map(int, date_entry.split('-'))
@@ -18,6 +20,7 @@ print(timenow - ends)
 '''
 
 '''
+3
 import datetime
 timenow = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 deadline = "2021-01-01 00:00:00"
@@ -27,6 +30,7 @@ print(start - ends)
 '''
 
 '''
+4
 import datetime
 def dateOfToday():
     dateOfTodayV = datetime.today()
@@ -40,7 +44,9 @@ def dateOfToday():
 dateOfToday()
 '''
 
+
 '''
+5
 from decimal import Decimal
 from functools import partial
 class SpaceAge:
@@ -68,6 +74,7 @@ class SpaceAge:
 '''
 
 '''
+6
 from faker import Faker
 fake = Faker()
 user = {"name":fake.name(), "adress":fake.address(), "language code":fake.language_code()}

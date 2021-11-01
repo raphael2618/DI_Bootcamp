@@ -13,11 +13,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53796e6d-d88e-411c-b344-e8673f91a130" name="Default Changelist" comment="day">
-      <change afterPath="$PROJECT_DIR$/week1/Day4/exercices/recreate_landing_page_FRAME/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week1/Day5/raphael_site/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1/Day5/raphael_site/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week1/Day5/raphael_site/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1/Day5/raphael_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/week1/Day5/raphael_site/index.html" afterDir="false" />
+    <list default="true" id="53796e6d-d88e-411c-b344-e8673f91a130" name="Default Changelist" comment="python">
+      <change afterPath="$PROJECT_DIR$/week1/Day5/portfolio/raphael_site/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/day1/Daily_challenge/bonus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/day1/Exercises_XP_Gold/Hello_World-I_Love_Python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/day1/Exercises_XP_Gold/What_Is_The_Season.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/day1/Exercises_XP_Ninja/Longest_Word_Without_A_Specific_Character.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/day1/Daily_challenge/mcdonalds.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/day3/Exercises_XP/pets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/Day5/portfolio/raphael_site/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week1/Day5/portfolio/raphael_site/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/.idea/week4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/week4/.idea/week4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/day1/Daily_challenge/build_up_a_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/week4/day1/Daily_challenge/build_up_a_string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/day2/Daily_challenge/birthday.py" beforeDir="false" afterPath="$PROJECT_DIR$/week4/day2/Daily_challenge/birthday.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/day2/Exercises_XP/Cinemax.py" beforeDir="false" afterPath="$PROJECT_DIR$/week4/day2/Exercises_XP/Cinemax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/day3/Exercises_XP/Cinemax_#2.py" beforeDir="false" afterPath="$PROJECT_DIR$/week4/day3/Exercises_XP/Cinemax_#2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +40,12 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/week1/Day5/raphael_site" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -72,11 +84,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Site" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python_test" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -86,6 +98,127 @@
       <recent name="F:\DI_Boussidan\Day1\exercice_lion_first_page_html\html" />
       <recent name="F:\DI_Boussidan\Day1\exercice_lion_first_page_html\css" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python.bonus">
+    <configuration name="Cinemax" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DI_Boussidan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week4/day2/Exercises_XP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4/day2/Exercises_XP/Cinemax.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Cinemax_#2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DI_Boussidan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week4/day3/Exercises_XP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4/day3/Exercises_XP/Cinemax_#2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="birthday" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DI_Boussidan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week4/day2/Daily_challenge" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4/day2/Daily_challenge/birthday.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bonus" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DI_Boussidan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week4/day1/Daily_challenge" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4/day1/Daily_challenge/bonus.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="build_up_a_string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DI_Boussidan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week4/day1/Daily_challenge" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4/day1/Daily_challenge/build_up_a_string.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.bonus" />
+        <item itemvalue="Python.Cinemax" />
+        <item itemvalue="Python.build_up_a_string" />
+        <item itemvalue="Python.birthday" />
+        <item itemvalue="Python.Cinemax_#2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -105,6 +238,12 @@
       <workItem from="1633501967415" duration="31670000" />
       <workItem from="1633577936776" duration="67000" />
       <workItem from="1633590716839" duration="5721000" />
+      <workItem from="1634798571948" duration="16926000" />
+      <workItem from="1634826761939" duration="7785000" />
+      <workItem from="1634890301591" duration="6961000" />
+      <workItem from="1635071776380" duration="91000" />
+      <workItem from="1635071877644" duration="2886000" />
+      <workItem from="1635074816743" duration="5566000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1633339119230</created>
@@ -141,7 +280,42 @@
       <option name="project" value="LOCAL" />
       <updated>1633526100160</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="pythonJS">
+      <created>1634814071957</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1634814071957</updated>
+    </task>
+    <task id="LOCAL-00007" summary="pythonJS">
+      <created>1634816429404</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1634816429404</updated>
+    </task>
+    <task id="LOCAL-00008" summary="python">
+      <created>1634819067749</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1634819067749</updated>
+    </task>
+    <task id="LOCAL-00009" summary="python">
+      <created>1634819188371</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1634819188371</updated>
+    </task>
+    <task id="LOCAL-00010" summary="python">
+      <created>1634842051130</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1634842051130</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +344,9 @@
     <MESSAGE value="commit" />
     <MESSAGE value="day3" />
     <MESSAGE value="day" />
-    <option name="LAST_COMMIT_MESSAGE" value="day" />
+    <MESSAGE value="pythonJS" />
+    <MESSAGE value="python" />
+    <option name="LAST_COMMIT_MESSAGE" value="python" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1633592628180">
@@ -181,22 +357,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="516" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1633590755556" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1633591580181">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1635075826718">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1633591580181" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1633595987840">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1635075826718" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1635080426234">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1633595987840" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1633526102805">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1635080426234" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1635080426234">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1633526102805" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1635080426234" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1635080426234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1635080426234" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1635080426234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1635080426234" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1635075814116">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1635075814116" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1634842053368">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1634842053368" />
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1633334699785">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1633334699785" />
+    <state x="478" y="0" width="579" height="824" key="find.popup" timestamp="1634836963390">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="0" width="579" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1634836963390" />
     <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1633525190370">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -205,5 +401,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1633522251148" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DI_Boussidan$sorting.coverage" NAME="sorting Coverage Results" MODIFIED="1634818931688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4/day5/Daily_challenge" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$What_Are_You_Learning.coverage" NAME="What_Are_You_Learning Coverage Results" MODIFIED="1634807537144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4/day4/Exercises_XP" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$Lets_Create_Some_Personalized_Shirts.coverage" NAME="Let’s_Create_Some_Personalized_Shirts Coverage Results" MODIFIED="1634813663392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4/day4/Exercises_XP" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$test.coverage" NAME="test Coverage Results" MODIFIED="1634817388743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4/day4" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$song.coverage" NAME="song Coverage Results" MODIFIED="1634837975421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5/day1/Exercises_XP" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$Cinemax.coverage" NAME="Cinemax Coverage Results" MODIFIED="1635077765716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4/day2/Exercises_XP" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$caesar_cipher.coverage" NAME="caesar_cipher Coverage Results" MODIFIED="1634805536569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4/day3/Daily_challenge" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$matrix.coverage" NAME="matrix Coverage Results" MODIFIED="1634815232691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4/day4/Daily_challenge" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$Who_Is_Under_16.coverage" NAME="Who_Is_Under_16 Coverage Results" MODIFIED="1634799101274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4/day2/Exercises_XP" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$dogs.coverage" NAME="dogs Coverage Results" MODIFIED="1634836918491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5/day1/Exercises_XP" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$magicians.coverage" NAME="magicians Coverage Results" MODIFIED="1634813403455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4/day4/Exercises_XP" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$cats.coverage" NAME="cats Coverage Results" MODIFIED="1634833006660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5/day1/Exercises_XP" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$Whats_Your_Favorite_Book.coverage" NAME="What’s_Your_Favorite_Book Coverage Results" MODIFIED="1634807896327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4/day4/Exercises_XP" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$tic_tac_toe.coverage" NAME="tic_tac_toe Coverage Results" MODIFIED="1634818584317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4/day5/Exercises_XP" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$mcdonalds.coverage" NAME="mcdonalds Coverage Results" MODIFIED="1634890861705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5/day1/Daily_challenge" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$Cinemax__2.coverage" NAME="Cinemax_#2 Coverage Results" MODIFIED="1634892787470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4/day3/Exercises_XP" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$Some_Geography.coverage" NAME="Some_Geography Coverage Results" MODIFIED="1634809242468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4/day4/Exercises_XP" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$disney_characters.coverage" NAME="disney_characters Coverage Results" MODIFIED="1634804515117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4/day3/Exercises_XP" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$birthday.coverage" NAME="birthday Coverage Results" MODIFIED="1635074994803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4/day2/Daily_challenge" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$bonus.coverage" NAME="bonus Coverage Results" MODIFIED="1635080412761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4/day1/Daily_challenge" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$build_up_a_string.coverage" NAME="build_up_a_string Coverage Results" MODIFIED="1635075306819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4/day1/Daily_challenge" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$random.coverage" NAME="random Coverage Results" MODIFIED="1634809725424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4/day4/Exercises_XP" />
+    <SUITE FILE_PATH="coverage/DI_Boussidan$random_Exercise__1_.coverage" NAME="random_Exercise (1) Coverage Results" MODIFIED="1634810131194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4/day4/Exercises_XP" />
   </component>
 </project>
