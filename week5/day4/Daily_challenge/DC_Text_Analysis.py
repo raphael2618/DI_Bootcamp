@@ -3,7 +3,8 @@ import re
 import string
 
 import nltk
-from nltk.corpus import stopwords
+from nltk.corpus import stopwords, words
+
 nltk.download('stopwords')
 
 
@@ -28,7 +29,7 @@ class Text():
             return words, frequency[words]
 
 
-    def maxfrquency(self):
+    def maxfrquency(self, frequency):
         res = self.wordInText()
         maxValue = res.max(frequency[words])
         return maxValue
@@ -47,7 +48,7 @@ class TextModification(Text):
         res = Text.wordInText()
         return stopwords.words(res)
 
-    def withoutCharacter:
+    def withoutCharacter(self):
         res = Text.wordInText()
         new_string = ''.join(char for char in res if char.isalnum())
         return new_string
