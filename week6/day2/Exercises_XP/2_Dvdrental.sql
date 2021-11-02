@@ -34,5 +34,13 @@ select film_id from film where film_id not in (select film_id from inventory);
 -- Write a query to find which city is in which country.
 select country.country,city.city
 from city,country where city.country_id = country.country_id order by country,city;
--- Bonus You want to be able to see how your sellers have been doing? Write a query to get the customer’s id, names (first and last), the amount and the date of payment ordered by the id of the staff member who sold them the dvd.
+-- Bonus You want to be able to see how your sellers have been doing?
+-- Write a query to get the customer’s id, names (first and last), the amount and the date of
+-- payment ordered by the id of the staff member who sold them the dvd.
+select staff.staff_id,customer.customer_id,concat(customer.first_name,', ',customer.last_name) as names,
+       amount,payment_date
+from customer,payment,staff
+where customer.customer_id = payment.customer_id
+and staff.staff_id = payment.staff_id
+order by staff.staff_id;
 
