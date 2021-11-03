@@ -2,65 +2,76 @@ import math
 
 
 class Circle:
-
-    def __init__(self):
-        self.radius = 0
-        self.diameter = 0
-
-    def input_radius(self, radius):
+    def __init__(self, radius=1.0):
         self.radius = radius
-        self.diameter = radius * 2
 
-    def input_diameter(self, diameter):
-        self.diameter = diameter
-        self.radius = diameter / 2
+    def perimeter(self):
+        return self.radius / 2 * math.pi
 
-    def get_area(self):
-        return math.pi * self.radius ** 2
+    def area(self):
+        return self.radius ** 2 * math.pi
+
+    def definition(self):
+        print(
+            'A circle is a plane figure bounded by one curved line, and such that all straight lines drawn from a '
+            'certain point within it to the bounding line, are equal. The bounding line is called its circumference '
+            'and the point, its centre.')
+
+
+class MyCircle(Circle):
+    def __init__(self, radius=None, diameter=None):
+        if not radius and not diameter:
+            raise Exception('This class cannot be instantiated without a diameter or radius')
+        super().__init__(radius)
+        if not self.radius:
+            self.radius = diameter / 2
+            self.diameter = diameter
+        else:
+            self.diameter = radius * 2
 
     def __str__(self):
-        return f'circle r:{self.radius} d:{self.diameter} a:{round(self.get_area(), 2)}'
+        return f'Circle with a radius of {self.radius}'
+
+    def __repr__(self):
+        return f'Circle object r={self.radius}'
 
     def __add__(self, other):
-        if type(other) is not Circle:
-            raise TypeError('invalid Circle type')
-        return self.get_area() + other.get_area()
+        if isinstance(other, MyCircle):
+            return MyCircle(radius=self.radius + other.radius)
+        elif isinstance(other, int):
+            return self.radius + other
+        else:
+            raise TypeError('Can only be used with int or MyCircle objects')
 
     def __gt__(self, other):
-        if type(other) is not Circle:
-            raise TypeError('invalid Circle type')
-        return self.get_area() > other.get_area()
-
-    def __eq__(self, other):
-        if type(other) is not Circle:
-            raise TypeError('invalid Circle type')
-        return self.get_area() == other.get_area()
+        if isinstance(other, MyCircle):
+            return self.radius > other.radius
+        elif isinstance(other, int):
+            return self.radius > other
+        else:
+            raise TypeError('Can only be used with int or MyCircle objects')
 
     def __int__(self):
-        return int(self.get_area())
+        return self.radius
+
+    def __eq__(self, other):
+        if isinstance(other, MyCircle):
+            return self.radius == other.radius
+        elif isinstance(other, int):
+            return self.radius == other
+        else:
+            raise TypeError('Can only be used with int or MyCircle objects')
 
 
-c1 = Circle()
-c2 = Circle()
-
-c1.input_diameter(10)
-c2.input_diameter(21)
-
-print('it works', c1, c2)
-
-print(c1.radius, c1.diameter, c1.get_area())
+c1 = MyCircle(diameter=3)
+print(c1.radius)
+print(c1.diameter)
+c2 = MyCircle(radius=3)
+print(c2.radius)
+print(c2.diameter)
 print(c1)
-
-print(c1 + c2)
-
-print(c1 == c2)
-
-circles = [c2, c1]
-
-for i in circles:
-    print(id(i))
-
-circles.sort()
-
-for i in circles:
-    print(id(i))
+c3 = c1 + c2
+# print('is c3 bigger than c2?', c3 > c2)
+print('is c3 equal to than c2?', c3 == c2)
+print([c2, c1, c3])
+print(sorted([c1, c2, c3]))
