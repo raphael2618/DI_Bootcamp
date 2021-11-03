@@ -1,34 +1,66 @@
-c = Circle(the_radius)
-c.radius
-c = Circle(4)
-print(c.diameter)
-c = Circle(4)
-c.diameter = 2
-print(c.diameter)
-print(c.radius)
-c = Circle(2)
-print(c.area)
-c = Circle.from_diameter(8)
-print(c.diameter)
-print(c.radius)
+import math
 
-c = Circle(4)
 
-print(c)
-repr(c)
-d = eval(repr(c))
-d
-c1 = Circle(2)
+class Circle:
 
-c2 = Circle(4)
+    def __init__(self):
+        self.radius = 0
+        self.diameter = 0
+
+    def input_radius(self, radius):
+        self.radius = radius
+        self.diameter = radius * 2
+
+    def input_diameter(self, diameter):
+        self.diameter = diameter
+        self.radius = diameter / 2
+
+    def get_area(self):
+        return math.pi * self.radius ** 2
+
+    def __str__(self):
+        return f'circle r:{self.radius} d:{self.diameter} a:{round(self.get_area(), 2)}'
+
+    def __add__(self, other):
+        if type(other) is not Circle:
+            raise TypeError('invalid Circle type')
+        return self.get_area() + other.get_area()
+
+    def __gt__(self, other):
+        if type(other) is not Circle:
+            raise TypeError('invalid Circle type')
+        return self.get_area() > other.get_area()
+
+    def __eq__(self, other):
+        if type(other) is not Circle:
+            raise TypeError('invalid Circle type')
+        return self.get_area() == other.get_area()
+
+    def __int__(self):
+        return int(self.get_area())
+
+
+c1 = Circle()
+c2 = Circle()
+
+c1.input_diameter(10)
+c2.input_diameter(21)
+
+print('it works', c1, c2)
+
+print(c1.radius, c1.diameter, c1.get_area())
+print(c1)
 
 print(c1 + c2)
-print(c2 * 3)
-print(c1 > c2)
-print(c1 < c2)
+
 print(c1 == c2)
-c3 = Circle(4)
-print(c2 == c3)
-print(circles)
+
+circles = [c2, c1]
+
+for i in circles:
+    print(id(i))
+
 circles.sort()
-print(circles)
+
+for i in circles:
+    print(id(i))
