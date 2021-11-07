@@ -41,10 +41,13 @@ select * from students where first_name like 'a%';
 -- Fetch the students whose first_names end with the letter a.
 select * from students where first_name like '%a';
 -- Fetch the students whose second to last letter of their first_names are a (Example: Leah).
-select * from students where SUBSTR(first_name, 2, 1) = 'a';
+select * from students where first_name like '%a_';
+select first_name from students where first_name like '%a-';
 -- Fetch the students whose id’s are equal to 1 AND 3 .
 select * from students where id=1 or id=3;
 
 -- Fetch the students whose birth_dates are equal to or come after 1/01/2000. (show all their info).
 select * from students where birth_date>='2000-01-01';
 
+insert into students(id, last_name, first_name, birth_date)
+values (29,'joan','marc','2021-01-21')
