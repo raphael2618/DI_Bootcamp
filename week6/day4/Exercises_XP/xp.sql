@@ -45,7 +45,6 @@ select concat(first_name,', ',last_name) as names,length(first_name)+length(last
 select first_name from employees where first_name like '%[0-9]%';
 -- Write a query to select the first ten records from a table.
 select * from employees limit 10;
-select top 10 job_id from jobs;
 -- Restricting And Sorting
 
 -- Write a query to display the first_name, last_name and salary of all employees
@@ -80,6 +79,8 @@ from employees);
 
 -- Write a query to select all information of employees whose last name is
 -- either ‘JONES’ or ‘BLAKE’ or ‘SCOTT’ or ‘KING’ or ‘FORD’.
+
+
 -- select * from employees
 -- where last_name in ('SCOTT','BLAKE','JONES','KING','FORD');
 select * from employees where last_name = 'SCOTT'
