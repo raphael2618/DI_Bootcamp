@@ -1,6 +1,6 @@
 create table items(
 name varchar(100),
-price int(5)
+price int
 );
 
 insert into items( name,price)
@@ -33,4 +33,5 @@ select * from customers where last_name="Smith" ;
 -- # All customers whose last name is ‘Jones’.
 select * from customers where last_name="Jones" ;
 -- # All customers whose firstname is not ‘Scott’.
-select * from customers where first_name="Scott" ;
+select * from customers where first_name not in ("Scott");
+-- select * from customers where first_name <>"Scott";
