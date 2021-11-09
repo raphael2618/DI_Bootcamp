@@ -44,3 +44,23 @@ LEFT OUTER JOIN customer
 LEFT OUTER JOIN product
   ON product.product_id = order.fk_product;
 
+SELECT *
+FROM order
+INNER JOIN customer
+  ON customer.id_customer  =order.fk_customer
+INNER JOIN product
+  ON product.product_id = order.fk_product;
+
+SELECT *
+FROM order
+FULL JOIN customer
+  ON customer.id_customer  =order.fk_customer
+FULL JOIN product
+  ON product.product_id = order.fk_product;
+
+SELECT *
+FROM order
+RIGHT JOIN customer
+  ON customer.id_customer  =order.fk_customer
+RIGHT JOIN product
+  ON product.product_id = order.fk_product;
